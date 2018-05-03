@@ -1,0 +1,8 @@
+<h2>Is your wift nagging</h2>
+<h3>Yes : {{ agreed }} No : {{ disagreed }}</h3>
+<!-- <app-voter *ngFor="let voter of voters" (onVoted)="onVoted($event)" [name]="voter"></app-voter> -->
+<app-voter *ngFor="let voter of voters" (onVoted)="onVoted($event)" [name]="voter" ></app-voter>
+
+<li *ngFor="let voter of voters" >
+  {{ voter }}
+</li>
