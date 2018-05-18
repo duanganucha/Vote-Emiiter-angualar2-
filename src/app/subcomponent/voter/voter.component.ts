@@ -18,6 +18,6 @@ export class VoterComponent implements OnInit {
   vote(agreed :boolean){
     this.onVoted.emit(agreed);
     this.voted = true;
-  }
 
+  }
 }
